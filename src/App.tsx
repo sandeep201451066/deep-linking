@@ -15,7 +15,7 @@ function App() {
         setTimeout(function () {
           if (new Date().valueOf() - now > 100) return;
           window.location.href = "https://play.google.com/store/apps/details?id=com.mycompany.myapp";
-        }, 50);
+        }, 30);
         window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
       } catch (error) {
         setType(JSON.stringify(error));
