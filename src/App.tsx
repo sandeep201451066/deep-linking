@@ -66,9 +66,9 @@ function App() {
         setType(JSON.stringify(navigator.userAgent));
         window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
         setTimeout(function () {
-          // if (new Date().valueOf() - now > 100) return;
+          if (new Date().valueOf() - now > 100) return;
           window.location.href = "https://play.google.com/store/apps/details?id=com.mycompany.myapp";
-        }, 500);
+        }, 50);
       } catch (error) {
         setType(JSON.stringify(error));
         console.log("error--------------------", error);
