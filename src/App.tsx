@@ -9,8 +9,8 @@ function App() {
     setType(JSON.stringify(navigator.userAgent));
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       try {
-        // window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
-        window.open("master.d3nu62uf8aj07x.amplifyapp.com://");
+        window.location.href = "https://master.d3nu62uf8aj07x.amplifyapp.com";
+        // window.open("master.d3nu62uf8aj07x.amplifyapp.com://");
       } catch (error) {
         setType(JSON.stringify(error));
         console.log("error--------------------", error);
