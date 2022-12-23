@@ -1532,6 +1532,11 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@macpaw/browser-deeplink@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@macpaw/browser-deeplink/-/browser-deeplink-1.2.0.tgz#bb59854740eba3034098b20341f68b34917a5057"
+  integrity sha512-UX+vtIRjx0aKakiqK/K0/D28dFO0lIOl3NbPMw5FNwDSxZuZZI/nCs0FEqA0z6jtmkMiNFGtuDCwzuGBUS0teA==
+
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz#dbf733a965ca47b1973177dc0bb6c889edcfb129"
