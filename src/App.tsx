@@ -25,7 +25,7 @@ function App() {
     //   });
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       var now = new Date().valueOf();
-      setOne(now);
+      // setOne(now);
       try {
         // window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
         // setType(JSON.stringify(navigator.userAgent));
@@ -40,7 +40,7 @@ function App() {
         }, 50);
         settwo(22222);
         window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
-        setType(new Date().valueOf() - now);
+        setOne(11111111);
       } catch (error) {
         setType(-1);
         console.log("error--------------------", error);
