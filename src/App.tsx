@@ -30,7 +30,7 @@ function App() {
         // window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
         // setType(JSON.stringify(navigator.userAgent));
         setTimeout(function () {
-          window.location.href = "https://play.google.com/store/apps/details?id=com.mycompany.myapp";
+          window.location.href = "https://play.google.com/store/apps/details?id=com.horseplay";
         }, 1000);
         window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
       } catch (error) {
