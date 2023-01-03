@@ -31,7 +31,7 @@ function App() {
         // setType(JSON.stringify(navigator.userAgent));
         setTimeout(function () {
           window.location.href = "https://play.google.com/store/apps/details?id=com.horseplay";
-        }, 1000);
+        }, 500);
         window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
       } catch (error) {
         console.log("error--------------------", error);
