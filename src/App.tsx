@@ -51,7 +51,7 @@ function App() {
   return (
     <div>
       <header>
-        <p>
+        {/* <p>
           Type <code>{type}</code>
         </p>
         <p>
@@ -62,10 +62,10 @@ function App() {
         </p>
         <p>
           Three <code>{three}</code>
-        </p>
+        </p> */}
 
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
+          Welcome !!!!!!
         </a>
       </header>
     </div>
