@@ -30,19 +30,10 @@ function App() {
         // window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
         // setType(JSON.stringify(navigator.userAgent));
         setTimeout(function () {
-          setThree(new Date().valueOf() - now);
-          if (new Date().valueOf() - now > 100) {
-            setType(999999991);
-          } else {
-            setType(10000000000);
-            window.location.href = "https://play.google.com/store/apps/details?id=com.mycompany.myapp";
-          }
-        }, 50);
-        settwo(22222);
+          window.location.href = "https://play.google.com/store/apps/details?id=com.mycompany.myapp";
+        }, 1000);
         window.location.href = "master.d3nu62uf8aj07x.amplifyapp.com://";
-        setOne(11111111);
       } catch (error) {
-        setType(-1);
         console.log("error--------------------", error);
       }
     }
