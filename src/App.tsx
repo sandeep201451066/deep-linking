@@ -14,7 +14,9 @@ function App() {
         };
         setTimeout(function () {
           // app stores link
-          window.location.href = "https://play.google.com/store/apps/details?id=com.horseplay";
+          if (!change) {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.horseplay";
+          }
         }, 1500);
 
         // URL schemes
