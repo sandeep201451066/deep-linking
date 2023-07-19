@@ -1,26 +1,17 @@
 import React from "react";
 import "./App.css";
+import { useLocation } from "react-router-dom";
 
 function App () {
-  var change = false;
+  const location = useLocation()
+  console.log(`ext-deep-linking.netlify.app:/${location?.pathname}`)
   React.useEffect(() => {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       try {
-        window.onblur = function () {
-          change = true;
-        };
-        window.onfocus = function () {
-          change = false;
-        };
-        // setTimeout(function () {
-        //   // app stores link
-        //   if (!change) {
-        //     window.location.href = "https://play.google.com/store/apps/details?id=com.horseplay";
-        //   }
-        // }, 1500);
-
         // URL schemes
-        window.location.href = "ext-deep-linking.netlify.app://DeleteAccountScreen";
+        console.log(`ext-deep-linking.netlify.app:/${location?.pathname}`)
+        window.location.href = `ext-deep-linking.netlify.app:/${location?.pathname}`
+        console.log(`ext-deep-linking.netlify.app:/${location?.pathname}`)
       } catch (error) {
         console.log("error--------------------", error);
       }
